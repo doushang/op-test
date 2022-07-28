@@ -4,8 +4,6 @@ name: OpenWrt-CI
 
 on:
   workflow_dispatch:
-  watch:
-    types: [started]
     
 jobs:
 
