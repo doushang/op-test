@@ -50,7 +50,7 @@ jobs:
       - name: upload openwrt-armvirt-64-default-rootfs.tar.gz
         run: |
           cd /opt/openwrt_packit
-          curl -LJO https://github.com/doushang/op-test/releases/download/0.1/boot-5.18.14-flippy-75+.tar.gz
+          curl -LJO https://github.com/doushang/op-test/releases/download/0.1/openwrt-armvirt-64-default-rootfs.tar.gz
 
 
       - name: ./mk_xxx.sh
