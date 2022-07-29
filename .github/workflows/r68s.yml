@@ -68,7 +68,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: OpenWrt_firmware
-          path: ./bin/targets/      
+          path: /opt/openwrt_packit/output/      
         
       - name: Upload OpenWrt Firmware to Release
         uses: ncipollo/release-action@v1
