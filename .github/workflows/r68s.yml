@@ -55,6 +55,7 @@ jobs:
 
       - name: ./mk_xxx.sh
         run: |
+          cd /opt/openwrt_packit
           ./mk_rk3568_r68s.sh
 
       - name: Deliver buildinfo
