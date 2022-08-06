@@ -38,9 +38,9 @@ jobs:
       - name: upload files
         run: |
           cd /opt/kernel
-          curl -LJO https://github.com/doushang/op-test/releases/download/0.1/boot-5.18.14-flippy-75+.tar.gz
-          curl -LJO https://github.com/doushang/op-test/releases/download/0.1/dtb-rockchip-5.18.14-flippy-75+.tar.gz
-          curl -LJO https://github.com/doushang/op-test/releases/download/0.1/modules-5.18.14-flippy-75+.tar.gz
+          curl -LJO https://github.com/doushang/op-test/releases/download/0.1/boot-5.18.16-flippy-75+.tar.gz
+          curl -LJO https://github.com/doushang/op-test/releases/download/0.1/dtb-rockchip-5.18.16-flippy-75+.tar.gz
+          curl -LJO https://github.com/doushang/op-test/releases/download/0.1/modules-5.18.16-flippy-75+.tar.gz
 
       - name: init Lede
         run: |
